@@ -1,4 +1,4 @@
-# ECG-LV-Disfunction
+# ECG-LBBB-HF
 Model to detect ECG at high risk of heart failure from ECG presenting LBBB
 
 # Environment
