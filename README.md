@@ -1,5 +1,5 @@
 # ECG-LV-Disfunction
-Model to detect LV disfunction from ECG
+Model to detect ECG at high risk of heart failure from ECG presenting LBBB
 
 # Environment
 - tensorflow 2.4.1 
@@ -7,7 +7,7 @@ Model to detect LV disfunction from ECG
 - pandas 1.3.4
 
 # Requirements
-Put the input file in the same directory as EFcode_1220.py as numpy array.
+Put the input file in the same directory as LBBB_model_code.py as numpy array.
 The input should be formated as a 3d numpy array with shape 2500,12,1 (time,induction,1).
 The ECG should be in 250 Hz recording with voltage unit = mV.
 
